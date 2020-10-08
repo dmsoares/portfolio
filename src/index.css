@@ -2,3 +2,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.MuiTypography-body1 {
+  line-height: 2 !important;
+}
