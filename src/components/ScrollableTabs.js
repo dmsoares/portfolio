@@ -76,7 +76,7 @@ export default function ScrollableTabsButtonAuto({ pages }) {
         </Tabs>
       </AppBar>
       <SwipeableViews
-        style={{ height: 'auto', maxWidth: '680px', position: 'relative', top: '45px', margin: 'auto' }} 
+        style={{ height: 'auto', maxWidth: '680px', position: 'relative', top: '60px', margin: 'auto' }} 
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={value}
         onChangeIndex={handleChangeIndex}
