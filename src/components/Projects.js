@@ -19,7 +19,15 @@ const projects = [
     content: 'A Pomodoro Clock that allows to change session and break times. Made with React-Redux.',
     url: 'https://red-pomodoro-clock-fcc.herokuapp.com/',
     sourceCode: 'https://github.com/dmsoares/projects/tree/master/pomodoro'
-  }
+  },
+  {
+    id: 3,
+    name: 'Calculator',
+    image: 'https://raw.githubusercontent.com/dmsoares/projects/master/calculator/thumbnail.png',
+    content: 'A minimalist calculator made with React for freeCodeCamp\'s JavaScript Calculator Challenge.',
+    url: 'https://min-calculator-fcc.herokuapp.com/',
+    sourceCode: 'https://github.com/dmsoares/projects/tree/master/calculator'
+  },
 ]
 
 const useStyles = makeStyles((theme) => ({

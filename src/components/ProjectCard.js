@@ -38,12 +38,12 @@ export default function ProjectCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          <a href={props.url}>Visit</a>
-        </Button>
-        <Button size="small" color="primary">
-          <a href={props.sourceCode}>Source</a>
-        </Button>
+        {props.url && <Button size="small" color="primary">
+          <a target='_blank' rel='noopener noreferrer' href={props.url}>Visit</a>
+        </Button>}
+        {props.sourceCode && <Button size="small" color="primary">
+          <a target='_blank' rel='noopener noreferrer' href={props.sourceCode}>Source</a>
+        </Button>}
       </CardActions>
     </Card>
   );
