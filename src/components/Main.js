@@ -1,31 +1,25 @@
 import React from 'react';
 import ScrollableTabs from './ScrollableTabs';
-import Manifest from './Manifest';
 import Projects from './Projects';
-import Skills from './Skills';
+import Journey from './Journey';
 
 const pages = [
     {
         id: 1,
-        name: 'Manifest',
-        component: <Manifest/>
+        name: 'Journey',
+        component: <Journey/>
     },
     {
         id: 2,
         name: 'Projects',
         component: <Projects/>
     },
-    {
-        id: 3,
-        name: 'Skills',
-        component: <Skills/>
-    },
 ]
 
 export default function Main() {
     return (
         <React.Fragment>
-            <ScrollableTabs pages={pages}/>
+            <ScrollableTabs tabs={pages}/>
         </React.Fragment>
     )
 }

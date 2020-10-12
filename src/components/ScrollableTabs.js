@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ScrollableTabsButtonAuto({ pages }) {
+export default function ScrollableTabsButtonAuto({ tabs }) {
   const classes = useStyles();
   const theme = useTheme();
   const [value, setValue] = React.useState(0);
@@ -72,7 +72,7 @@ export default function ScrollableTabsButtonAuto({ pages }) {
           variant="fullWidth"
           aria-label="full width tabs example"
         >
-          {pages.map((page, index) => <Tab key={page.id} label={page.name} {...a11yProps(index)} /> )}
+          {tabs.map((tab, index) => <Tab key={tab.id} label={tab.name} {...a11yProps(index)} /> )}
         </Tabs>
       </AppBar>
       <SwipeableViews
@@ -81,10 +81,10 @@ export default function ScrollableTabsButtonAuto({ pages }) {
         index={value}
         onChangeIndex={handleChangeIndex}
       >
-        {pages.map((page, index) => {
+        {tabs.map((tab, index) => {
           return (
-            <TabPanel key={page.id} value={value} index={index} dir={theme.direction}>
-              {page.component}
+            <TabPanel key={tab.id} value={value} index={index} dir={theme.direction}>
+              {tab.component}
             </TabPanel>
           )
         })}
