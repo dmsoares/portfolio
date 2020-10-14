@@ -3,7 +3,7 @@
 My adventure in web developing started in June 15, 2018.
 It was the day I completed my first [freeCodeCamp](https://www.freecodecamp.org) challenge and learned how to 'Say hello to HTML elements'!
 
-After an interim to start a small business with my wife in an unrelated field (I still had fun setting up our WordPress website, though!), I decided in late 2019 that I would take this career path seriously and would invest all the energy I could muster to land a job as a web developer.
+After an interim to start a small business in an unrelated field (I still had fun setting up our WordPress website, though!), I decided in late 2019 that I would take this career path seriously and would invest all the energy I could muster to land a job as a web developer.
 
 By then I had already finished freeCodeCamp's Responsive Web Design Certification and was halfway through their Javascript Algorithms and Data Structures program. I went ahead, completing both the Javascript module and the Front End Libraries Certification. You can check [my FCC profile here](https://www.freecodecamp.org/dmsoares).
 
