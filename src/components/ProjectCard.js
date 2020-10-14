@@ -24,6 +24,7 @@ export default function ProjectCard(props) {
 
   return (
     <Card className={classes.root}>
+      <a style={{ textDecoration: 'none', color: 'inherit' }} target='_blank' rel='noopener noreferrer' href={props.url}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -39,6 +40,7 @@ export default function ProjectCard(props) {
           </Typography>
         </CardContent>
       </CardActionArea>
+      </a>
       <CardActions>
         {props.url && <Button size="small" color="primary">
           <a target='_blank' rel='noopener noreferrer' href={props.url}>Visit</a>

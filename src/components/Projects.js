@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     name: 'Significa Frontend Challenge',
     image: 'https://raw.githubusercontent.com/dmsoares/projects/master/significa-challenge/thumbnail.jpg',
-    content: 'A netflix-esque front page made with React.',
+    content: 'A netflix-esque front page made with React. (Desktop only)',
     url: 'https://significa-frontend-challenge.herokuapp.com/',
     sourceCode: 'https://github.com/dmsoares/projects/tree/master/significa-challenge'
   },
