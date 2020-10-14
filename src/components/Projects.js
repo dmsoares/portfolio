@@ -60,3 +60,18 @@ export default function FullWidthGrid() {
     </div>
   );
 }
+
+/*
+
+Of course, all this time and energy wouldn't make sense without getting my hands dirty coding. Please check my [Github profile](https://www.github.com/dmsoares). Go to the Projects repo to see how I handled freeCodeCamp's project challenges or how I responded to Significa's call to code a Netflix-esque front page with React!
+Visit the [fullstackopen-exercises](https://github.com/dmsoares/fullstack-open-exercises) repository and you can also see how I am currently doing on [Fullstack Open curriculum](https://fullstackopen.com/en).
+
+My journey thus far has allowed me to learn different skills such as:
+  Responsive Design
+  HTML
+  CSS
+  Javascript ES6
+  React
+  MongoDb
+
+*/

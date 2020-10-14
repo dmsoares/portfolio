@@ -5,11 +5,14 @@ import { makeStyles } from '@material-ui/core/styles';
 import Markdown from './Markdown';
 import manifest from '../assets/manifest.md';
 import Header from './Header';
+import { Paper } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
-    maxWidth: 500,
+  },
+  paper: {
+    padding: theme.spacing(2, 2),
   },
   markdown: {
     ...theme.typography.body2,
@@ -31,9 +34,11 @@ function Journey() {
     <React.Fragment>
       <Header/>
       <section className={classes.root}>
-        <Typography variant='body1' gutterBottom>Welcome to my portfolio! My name is Decio.</Typography>
-        <Typography variant='body1' gutterBottom><strong>I'm a web developer in search for an internship or junior position.</strong></Typography>
-        <Typography variant='body1' gutterBottom>I've created this website to showcase my skills and to write about this incredible journey. I'll be populating the Projects tab with my creations and you can get to know me better below!</Typography>
+        <Paper className={classes.paper}>
+          <Typography variant='h5' component={'h1'} gutterBottom>Welcome to my portfolio!</Typography>
+          <Typography variant='body1' gutterBottom><strong>I'm a web developer in search for an internship or junior position.</strong></Typography>
+          <Typography variant='body1' gutterBottom>I created this website to showcase my skills and to write about this incredible journey. It's meant to be a work in progress and I'll be refining it and populating the Projects tab with my creations.</Typography>
+        </Paper>
       </section>
       <section>
         <Markdown className={classes.markdown}>

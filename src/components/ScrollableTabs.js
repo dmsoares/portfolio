@@ -55,10 +55,12 @@ export default function ScrollableTabsButtonAuto({ tabs }) {
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
+    window.scrollTo(0,0);
   };
 
   const handleChangeIndex = (index) => {
     setValue(index);
+    window.scrollTo(0,0);
   };
 
   return (
