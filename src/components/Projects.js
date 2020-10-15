@@ -28,6 +28,14 @@ const projects = [
     url: 'https://min-calculator-fcc.herokuapp.com/',
     sourceCode: 'https://github.com/dmsoares/projects/tree/master/calculator'
   },
+  {
+    id: 4,
+    name: 'Markdown Previewer',
+    image: 'https://raw.githubusercontent.com/dmsoares/projects/master/markdown-previewer/thumbnail.jpg',
+    content: 'This is a simple markdown previewer made with Bootstrap, React.js and Marked.js for the freeCodeCamp.org frontend libraries challenge.',
+    sourceCode: 'https://github.com/dmsoares/projects/tree/master/markdown-previewer'
+
+  },
 ]
 
 const useStyles = makeStyles((theme) => ({
