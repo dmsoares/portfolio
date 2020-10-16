@@ -17,4 +17,4 @@ I am deeply passionate about learning and expanding my own abilities and most of
 
 My background in Anthropology also means I am very enthusiastic about studying how technology can and does integrate people's lives and have an interest in learning how to craft great user experiences. At the end of the day, business-wise, that's all that matters! 
 
-*Please check the Projects tab to see some of my recent works.*
+*Please check the Projects tab to see some of my work and the tecnologies I've been using.*
