@@ -36,7 +36,7 @@ function Journey() {
       <section className={classes.root}>
         <Paper className={classes.paper}>
           <Typography variant='h5' component={'h1'} gutterBottom>Welcome to my portfolio!</Typography>
-          <Typography variant='body1' gutterBottom><strong>I'm a web developer in search for an internship or junior position.</strong></Typography>
+          <Typography variant='body1' gutterBottom><strong>I'm a web developer in search of an internship or junior position.</strong></Typography>
           <Typography variant='body1' gutterBottom>I created this website to showcase my skills and to write about this incredible journey. It's meant to be a work in progress and I'll be refining it and populating the Projects tab with my creations.</Typography>
         </Paper>
       </section>
