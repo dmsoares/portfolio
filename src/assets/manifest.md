@@ -11,7 +11,7 @@ The next step was doing App Brewery's [The Complete 2020 Web Development Bootcam
 
 I decided then to specialize in component-based development using React.js and have since applied it to all my projects, learning as well as how to implement state management with Redux and React-Redux.
 
-I have the most fun studying and coding Javascript and getting to know how the browser does its job, how its different threads work and communicate between them, and how Javascript is interpreted. How come Javascript's single-threaded, synchronous execution context can order network requests while responding to user input and manipulating the DOM? I remember trying to wrap my head around this one!
+I have the most fun studying and coding Javascript and getting to know how the browser does its job, how its different threads work and communicate between them, and how Javascript is interpreted. How come Javascript's single-threaded, synchronous global execution context can order network requests while responding to user input and manipulating the DOM? I remember trying to wrap my head around this one!
 
 I am deeply passionate about learning and expanding my own abilities and most of all I care about diving into things in search of fundamental insights while having a holistic perspective on stuff. That's something that I had the opportunity to develop while at university doing my Anthropology studies.
 
