@@ -1,6 +1,6 @@
 # The Journey
 
-My adventure in web developing started in June 15, 2018.
+My adventure in web development started in June 15, 2018.
 It was the day I completed my first [freeCodeCamp](https://www.freecodecamp.org) challenge and learned how to 'Say hello to HTML elements'!
 
 After an interim to start a small business in an unrelated field (I still had fun setting up our WordPress website, though!), I decided in late 2019 that I would take this career path seriously and would invest all the energy I could muster to land a job as a web developer.
