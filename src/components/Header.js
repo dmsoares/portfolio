@@ -1,34 +1,39 @@
-import { Typography } from '@material-ui/core';
-import React from 'react';
-import Avatar from './ImageAvatar';
+import { Typography } from "@material-ui/core";
+import React from "react";
+import Avatar from "./ImageAvatar";
 
 const style = {
   section: {
-    display: 'flex',
-    marginBottom: '2rem'
+    display: "flex",
+    marginBottom: "2rem",
   },
   headerContent: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    paddingLeft: '1rem',
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    paddingLeft: "1rem",
   },
   h1: {
-    fontSize: '1.875rem',
+    fontSize: "1.875rem",
   },
   p: {
     lineHeight: 1,
   },
-}
+};
 
 export default function Header() {
   return (
     <section style={style.section}>
-      <Avatar/>
+      <Avatar />
       <div style={style.headerContent}>
-        <Typography variant='h2' component='h1' style={style.h1}>I'm Décio</Typography>
-        <Typography variant='body2' style={style.p}>Programmer, Anthropologist</Typography>
+        <Typography variant="h2" component="h1" style={style.h1}>
+          Décio Soares
+        </Typography>
+        <Typography variant="body2" style={style.p}>
+          &#60; Junior Fullstack Software Developer &#62;
+        </Typography>
       </div>
     </section>
-  )
+  );
 }
+
