@@ -8,12 +8,8 @@ const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
   },
-  paper: {
-    padding: theme.spacing(2, 2),
-  },
   markdown: {
     ...theme.typography.body2,
-    padding: theme.spacing(3, 0),
   },
 }));
 
@@ -28,11 +24,9 @@ function Journey() {
   });
 
   return (
-    <React.Fragment>
-      <section>
-        <Markdown className={classes.markdown}>{text}</Markdown>
-      </section>
-    </React.Fragment>
+    <section>
+      <Markdown className={classes.markdown}>{text}</Markdown>
+    </section>
   );
 }
 

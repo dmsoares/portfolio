@@ -11,7 +11,7 @@ const pages = [
   },
   {
     id: 1,
-    name: "Journey",
+    name: "The Journey",
     component: <Journey />,
   },
 ];

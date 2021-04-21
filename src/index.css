@@ -7,6 +7,10 @@
   line-height: 2 !important;
 }
 
+.MuiTypography-body2 {
+  line-height: 2 !important;
+}
+
 a {
   text-decoration: none;
   color: #1976d2;
@@ -14,3 +18,4 @@ a {
 a:hover {
   text-decoration: underline;
 }
+

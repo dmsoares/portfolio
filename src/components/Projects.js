@@ -3,50 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import ProjectCard from "./ProjectCard";
 import Header from "./Header";
-import { Paper } from "@material-ui/core";
+import { Box, Paper } from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
-
-const projects = [
-  {
-    id: 1,
-    name: "Significa Frontend Challenge",
-    image:
-      "https://raw.githubusercontent.com/dmsoares/projects/master/significa-challenge/thumbnail.jpg",
-    content: "A netflix-esque front page made with React. (Desktop only)",
-    url: "https://significa-frontend-challenge.herokuapp.com/",
-    sourceCode:
-      "https://github.com/dmsoares/projects/tree/master/significa-challenge",
-  },
-  {
-    id: 2,
-    name: "Pomodoro Clock",
-    image:
-      "https://raw.githubusercontent.com/dmsoares/projects/master/pomodoro/thumbnail.jpg",
-    content:
-      "A Pomodoro Clock that allows to change session and break times. Made with React-Redux.",
-    url: "https://red-pomodoro-clock-fcc.herokuapp.com/",
-    sourceCode: "https://github.com/dmsoares/projects/tree/master/pomodoro",
-  },
-  {
-    id: 3,
-    name: "Calculator",
-    image:
-      "https://raw.githubusercontent.com/dmsoares/projects/master/calculator/thumbnail.png",
-    content:
-      "A minimalist calculator made with React for freeCodeCamp's JavaScript Calculator Challenge.",
-    sourceCode: "https://github.com/dmsoares/projects/tree/master/calculator",
-  },
-  {
-    id: 4,
-    name: "Markdown Previewer",
-    image:
-      "https://raw.githubusercontent.com/dmsoares/projects/master/markdown-previewer/thumbnail.jpg",
-    content:
-      "This is a simple markdown previewer made with Bootstrap, React.js and Marked.js for the freeCodeCamp.org frontend libraries challenge.",
-    sourceCode:
-      "https://github.com/dmsoares/projects/tree/master/markdown-previewer",
-  },
-];
+import projects from "../projectsDescription";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -62,24 +21,33 @@ export default function FullWidthGrid() {
 
   return (
     <>
-      <Header />
-      <section className={classes.root}>
-        <Paper className={classes.paper}>
-          <Typography variant="h5" component={"h1"} gutterBottom>
-            Welcome to my portfolio!
-          </Typography>
-          <Typography variant="body1" gutterBottom>
-            <strong>
-              I'm a web developer in search of an internship or junior position.
-            </strong>
-          </Typography>
-          <Typography variant="body1" gutterBottom>
-            I created this website to showcase my skills and to write about this
-            incredible journey. It's meant to be a work in progress and I'll be
-            refining it and populating the Projects tab with my creations.
-          </Typography>
-        </Paper>
-      </section>
+      <Box mb={4}>
+        <Header id="header" />
+        <section className={classes.root}>
+          <Paper className={classes.paper}>
+            <Typography variant="h5" component={"h1"} gutterBottom>
+              Welcome to my portfolio!
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+              <strong>I am currently searching for a junior position.</strong>
+            </Typography>
+            <Typography variant="body2" gutterBottom>
+              June 25th 2018, aka “The day I first said &#60;h1&#62;Hello
+              World!&#60;/h1&#62; and decided Software Development would be my
+              passionate way of making an impact in this tiny blue dot at the
+              corner of the Universe”!
+              <br></br> An eager explorer of cultures with a keen eye for
+              diversity matters, I've come to realize how much clean, safe &&
+              inclusive technology can contribute to the well-being of all
+              around us, regardless of who they are or where they come from.
+              <br></br>
+              Thus my goal: to expand inclusion through tech. One jazzy,
+              beautifully clean line of code at a time!<br></br>
+              Do you have an inspiring proposition? Just give me a shout-out!
+            </Typography>
+          </Paper>
+        </section>
+      </Box>
       <div className={classes.root}>
         <Grid container spacing={3}>
           {projects.map((project) => {
@@ -101,18 +69,3 @@ export default function FullWidthGrid() {
     </>
   );
 }
-
-/*
-
-Of course, all this time and energy wouldn't make sense without getting my hands dirty coding. Please check my [Github profile](https://www.github.com/dmsoares). Go to the Projects repo to see how I handled freeCodeCamp's project challenges or how I responded to Significa's call to code a Netflix-esque front page with React!
-Visit the [fullstackopen-exercises](https://github.com/dmsoares/fullstack-open-exercises) repository and you can also see how I am currently doing on [Fullstack Open curriculum](https://fullstackopen.com/en).
-
-My journey thus far has allowed me to learn different skills such as:
-  Responsive Design
-  HTML
-  CSS
-  Javascript ES6
-  React
-  MongoDb
-
-*/
